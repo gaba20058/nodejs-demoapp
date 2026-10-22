@@ -12,7 +12,7 @@ import appInsights from 'applicationinsights'
 import { getUserDetails, getUserPhoto } from '../graph.mjs'
 
 // For reasons we need to do this here as well
-import { config as dotenvConfig  from 'dotenv'
+import { config as dotenvConfig } from 'dotenv'
 dotenvConfig()
 
 const AUTH_SCOPES = ['user.read']
